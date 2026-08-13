@@ -12,7 +12,7 @@ type RevealProps = {
 };
 
 const hiddenStyles: Record<Variant, React.CSSProperties> = {
-  up: { opacity: 0, filter: "blur(8px)", transform: "translateY(24px)" },
+  up: { opacity: 0, filter: "blur(8px)", transform: "translateY(12px)" },
   fade: { opacity: 0, filter: "blur(12px)" },
   left: { opacity: 0, transform: "translateX(-12px)" },
 };

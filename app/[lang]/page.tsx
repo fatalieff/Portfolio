@@ -22,7 +22,6 @@ import HeroParallax from "@/components/HeroParallax";
 import SpotlightCard from "@/components/SpotlightCard";
 import Magnetic from "@/components/Magnetic";
 import Counter from "@/components/Counter";
-import Marquee from "@/components/Marquee";
 import { GithubIcon, LinkedinIcon } from "@/components/icons";
 import { getDictionary } from "@/lib/dictionaries";
 import { isLocale } from "@/lib/i18n-config";
@@ -62,9 +61,6 @@ export default async function Home({ params }: Props) {
   const featured = dict.projects.featured;
   const projectItems = dict.projects.items;
   const allProjects = [featured, ...projectItems];
-  const marqueeTech = dict.skills.groups.flatMap((group) =>
-    group.levels.map((skill) => skill.name)
-  );
   const liveRepos = await fetchRepos();
   const repos =
     liveRepos.length > 0
@@ -123,10 +119,6 @@ export default async function Home({ params }: Props) {
           </span>
         </ScrollLink>
       </section>
-
-      <div className="border-y border-black/[0.05] py-7">
-        <Marquee items={marqueeTech} duration={34} />
-      </div>
 
       <section
         id="about"
@@ -530,15 +522,6 @@ export default async function Home({ params }: Props) {
                   className="group flex size-12 items-center justify-center rounded-full border border-black/8 bg-white/60 text-muted-foreground transition-all duration-300 hover:scale-105 hover:border-accent hover:bg-accent hover:text-white"
                 >
                   <LinkedinIcon className="size-5 transition-transform duration-300 group-hover:scale-110" />
-                </a>
-                <a
-                  href="https://github.com/fatalieff"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="GitHub"
-                  className="group flex size-12 items-center justify-center rounded-full border border-black/8 bg-white/60 text-muted-foreground transition-all duration-300 hover:scale-105 hover:border-accent hover:bg-accent hover:text-white"
-                >
-                  <GithubIcon className="size-5 transition-transform duration-300 group-hover:scale-110" />
                 </a>
               </div>
             </div>
