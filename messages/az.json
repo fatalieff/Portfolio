@@ -1,0 +1,234 @@
+{
+  "metadata": {
+    "title": "Murad Fətəliyev · Frontend Developer",
+    "description": "Murad Fətəliyev — Bakıda fəaliyyət göstərən frontend developer. React və Next.js ilə sürətli, təmiz və vizual baxımdan təkmil veb təcrübələri hazırlayıram."
+  },
+  "nav": {
+    "about": "Haqqımda",
+    "projects": "Layihələr",
+    "skills": "Bacarıqlar",
+    "focus": "Diqqət",
+    "blog": "Blog",
+    "faq": "FAQ",
+    "contact": "Əlaqə"
+  },
+  "hero": {
+    "badge": "Portfolio",
+    "name": "Murad Fətəliyev",
+    "role": "Frontend Developer",
+    "divider": "·",
+    "focus": "React & Next.js"
+  },
+  "scroll": "Sürüşdür",
+  "assistant": {
+    "placeholder": "Layihələrim, texnologiyalarım və ya əlaqə haqqında soruş…",
+    "suggestions": [
+      "Murad Fətəliyev kimdir?",
+      "Layihələrimi göstər",
+      "Texnologiya hansıdır?",
+      "Əlaqə məlumatları"
+    ],
+    "you": "Siz",
+    "replies": {
+      "who": "Mən Murad Fətəliyevəm — Bakıda yaşayan frontend developer. React və Next.js ilə sürətli, təmiz və vizual baxımdan təkmil veb təcrübələri qururam. Daha çox məlumat üçün aşağıdakı Haqqımda bölməsinə bax.",
+      "projects": "Seçilmiş işlərimə Telegram bildirişləri ilə açıq hava kinoteatrı platforması, AI dəstəkli marşrutlaşdırma ilə ev xidmətləri platforması və müasir yemək çatdırılması səhifəsi daxildir. Hər layihənin Layihələr bölməsində canlı demo linki var.",
+      "stack": "HTML, CSS, JavaScript, React, Next.js, Tailwind CSS, Redux Toolkit, Vite və Node.js ilə işləyirəm — backend tərəfdə Supabase və Firebase, dizayn üçün isə Figma. Tam siyahı Bacarıqlar bölməsindədir.",
+      "contact": "Mənimlə ən asan əlaqə yolu aşağıdakı Əlaqə bölməsindədir — email və LinkedIn oradadır, adətən bir gün ərzində cavab verirəm.",
+      "default": "Yaxşı sual. Məndən kim olduğum, layihələrim, texnologiyalarım və ya əlaqə haqqında soruş — və ya saytı sürüşdürərək tam mənzərəni gör."
+    }
+  },
+  "about": {
+    "eyebrow": "01 — Haqqımda",
+    "title": "Haqqımda",
+    "body": "Bakıda yaşayan frontend developerəm. Sürətli, təmiz və vizual baxımdan təkmil veb tətbiqlər qurmağı sevirəm. İdeyaları müasir, intuitiv və istifadəyə hazır interfeyslərə çevirməkdən zövq alıram.\n\nResponsive frontend arxitekturasına, aydınlığa, performansa və yaxşı istifadəçi axını formalaşdıran detallara önəm verirəm. Landing səhifələrindən tutmuş dashboard və botlara, real-time funksiyalara qədər müasir React ekosistemində işləyirəm."
+  },
+  "projects": {
+    "eyebrow": "02 — Layihələr",
+    "title": "Seçilmiş işlər",
+    "featuredBadge": "Önə çıxan",
+    "liveDemo": "Canlı demo",
+    "details": "Ətraflı bax",
+    "sourceCode": "Mənbə kodu",
+    "roleLabel": "Rol",
+    "yearLabel": "İl",
+    "stackLabel": "Texnologiyalar",
+    "featuresTitle": "Xüsusiyyətlər",
+    "backToProjects": "Bütün layihələr",
+    "featured": {
+      "title": "Gala Garden Cinema",
+      "slug": "gala-garden-cinema",
+      "year": "2024",
+      "role": "Frontend Developer",
+      "description": "Açıq hava kinoteatrı platforması — təmiz, responsive təcrübə: film axtarışı, yemək sifarişi və Telegram Bot API vasitəsilə real-time bildirişlər.",
+      "longDescription": "Açıq hava kinoteatrı üçün qurulmuş tam platforma: tamaşaçılar film kataloqunu gəzir, seansı seçir, qəlyanaltı və içki sifariş edir, Telegram Bot API vasitəsilə seans və sifarişlə bağlı bildirişləri real-time alır. Sadə və təmiz interfeys bütün axını bir neçə kliklə tamamlanan təcrübəyə çevirir.",
+      "tags": ["React", "Telegram Bot API", "Responsive UI", "Vercel"],
+      "stack": ["React", "JavaScript", "Tailwind CSS", "Telegram Bot API", "Vercel"],
+      "features": [
+        "Film kataloqu və axtarış",
+        "Yemək və içki sifarişi axını",
+        "Telegram Bot API ilə real-time bildirişlər",
+        "Tam responsive dizayn"
+      ],
+      "href": "https://galagardencinema.site/",
+      "github": "https://github.com/fatalieff/gala-garden-cinema"
+    },
+    "items": [
+      {
+        "title": "HəllVar",
+        "slug": "hell-var",
+        "year": "2024",
+        "role": "Frontend Developer",
+        "description": "Azərbaycanda ev xidmətləri sektorunu rəqəmsallaşdıran onlayn platforma — müştəri problemi təsvir edir, AI dəstəkli sistem onu düzgün kateqoriyaya yönləndirir, təsdiqlənmiş ustaları seçib sifariş edir, real-time çatda yazışır və iş bitdikdən sonra rəy bildirir. Tam dəstək 4 dildə.",
+        "longDescription": "Ev xidmətləri bazarını rəqəmsallaşdıran platforma: müştəri problemi təsvir edir, AI dəstəkli sistem onu uyğun kateqoriyaya yönləndirir, müştəri təsdiqlənmiş ustaları müqayisə edib sifariş edir, işin gedişatını real-time çatda izləyir və iş bitdikdən sonra rəy yazır. Platforma 4 dildə tam dəstəklənir.",
+        "tags": ["Next.js", "Supabase", "AI dəstəkli marşrutlaşdırma", "Real-time çat"],
+        "stack": ["Next.js", "React", "Supabase", "Tailwind CSS", "AI marşrutlaşdırma", "Real-time çat"],
+        "features": [
+          "AI dəstəkli problem kateqoriyalaşdırma",
+          "Usta seçimi və sifariş sistemi",
+          "Real-time çat",
+          "4 dildə tam dəstək"
+        ],
+        "href": "https://hell-var.vercel.app/",
+        "github": "https://github.com/fatalieff/HellVar"
+      },
+      {
+        "title": "Foodie",
+        "slug": "foodie",
+        "year": "2023",
+        "role": "Frontend Developer",
+        "description": "Yemək çatdırılması üçün müasir landing səhifəsi — aydın vizual iyerarxiya, güclü UI bölmələri və hamar istifadəçi interaksiyaları.",
+        "longDescription": "Yemək çatdırılması üçün müasir landing səhifəsi — güclü vizual iyerarxiya, aydın çağırış-aksiya blokları və hamar mikro-interaksiyalar. Redux Toolkit ilə qurulan state idarəetməsi interfeysi dinamik və sürətli saxlayır.",
+        "tags": ["React", "Tailwind CSS", "Redux Toolkit"],
+        "stack": ["React", "JavaScript", "Tailwind CSS", "Redux Toolkit"],
+        "features": [
+          "Müasir hero və bölmə layoutları",
+          "Redux Toolkit ilə state idarəetməsi",
+          "Hamar hover və scroll interaksiyaları",
+          "Sürətli, responsive render"
+        ],
+        "href": "https://foodie-react-one.vercel.app/",
+        "github": "https://github.com/fatalieff/foodie-react"
+      }
+    ]
+  },
+  "github": {
+    "eyebrow": "03 — GitHub",
+    "title": "Canlı GitHub",
+    "subtitle": "Aşağıdakı repo məlumatları birbaşa GitHub API-dən canlı çəkilir — ulduzlar, dil və son yenilənmə.",
+    "stars": "ulduz",
+    "forks": "fork",
+    "updated": "Yeniləndi",
+    "viewRepo": "Reponu aç"
+  },
+  "skills": {
+    "eyebrow": "04 — Bacarıqlar",
+    "title": "Stack və alətlər",
+    "levelsTitle": "Səviyyələr",
+    "levelLabels": {
+      "1": "Başlanğıc",
+      "2": "Orta",
+      "3": "Yaxşı",
+      "4": "Çox yaxşı",
+      "5": "Ekspert"
+    },
+    "groups": [
+      {
+        "label": "Frontend mühəndisliyi",
+        "rows": [
+          { "label": "Dillər", "value": "HTML5 · CSS3 · JavaScript (ES6+)" },
+          { "label": "UI stack", "value": "React · Next.js · Tailwind CSS" },
+          { "label": "State və build", "value": "Redux Toolkit · Vite · npm" },
+          { "label": "Kitabxanalar", "value": "Ant Design · Axios · Recharts" },
+          { "label": "Dizayn", "value": "Figma · Responsive UI · Təmiz layoutlar" }
+        ],
+        "levels": [
+          { "name": "HTML & CSS", "level": 5 },
+          { "name": "JavaScript", "level": 4 },
+          { "name": "React", "level": 4 },
+          { "name": "Next.js", "level": 4 },
+          { "name": "Tailwind CSS", "level": 5 }
+        ]
+      },
+      {
+        "label": "İnteqrasiya və çatdırılma",
+        "rows": [
+          { "label": "Backend əsasları", "value": "Node.js · Supabase · Firebase" },
+          { "label": "Real-time və botlar", "value": "Telegram Bot API" },
+          { "label": "Deploy", "value": "Vercel" },
+          { "label": "Diqqət", "value": "Performans · İstifadəçi axını · Məhsul yanaşması" }
+        ],
+        "levels": [
+          { "name": "Node.js", "level": 3 },
+          { "name": "Supabase", "level": 3 },
+          { "name": "Firebase", "level": 3 },
+          { "name": "Telegram Bot API", "level": 4 },
+          { "name": "Redux Toolkit", "level": 4 }
+        ]
+      }
+    ]
+  },
+  "focus": {
+    "eyebrow": "05 — Diqqət",
+    "title": "Cari fokus",
+    "pitch": "Sadə bir məqsədə doğru gedirəm: sürətli, təmiz və premium təcrübələr — insanların həqiqətən istifadə etməyi sevdiyi interfeyslər.",
+    "quote": "Təmiz ideyaları yüksək keyfiyyətli frontend təcrübələrinə çevirmək.",
+    "workTitle": "Hazırda üzərində işlədiyim sahələr",
+    "items": [
+      "Daha yüksək UI keyfiyyəti",
+      "Daha güclü məhsul yanaşması",
+      "Daha yaxşı frontend miqyaslanması",
+      "Yeni texnologiyaların öyrənilməsi"
+    ],
+    "openForLabel": "Açıq olduqlarım",
+    "openFor": ["Freelance işlər", "Remote vəzifələr", "Frontend əməkdaşlıq"],
+    "backToChat": "Yuxarıdakı çata qayıt"
+  },
+  "faq": {
+    "eyebrow": "06 — FAQ",
+    "title": "Tez-tez soruşulanlar",
+    "items": [
+      {
+        "q": "Hansı texnologiyalarla işləyirsiniz?",
+        "a": "React, Next.js, Tailwind CSS və Redux Toolkit ilə — backend tərəfdə Supabase və Firebase, botlar üçün isə Telegram Bot API. Tam siyahı Bacarıqlar bölməsindədir."
+      },
+      {
+        "q": "Hansı layihələri qəbul edirsiniz?",
+        "a": "Landing səhifələri, veb tətbiqlər, dashboardlar və real-time funksiyalı məhsullar. Kiçik təkmilləşdirmələrdən tutmuş tam məhsula qədər hər ölçüdə iş alıram."
+      },
+      {
+        "q": "Layihə neçə müddətə hazır olur?",
+        "a": "Ölçüdən asılıdır: landing səhifəsi 1–2 həftə, tam veb tətbiq 2–8 həftə. Dəqiq müddət ilk söhbətdən sonra razılaşdırılır."
+      },
+      {
+        "q": "Əlaqə üçün ən yaxşı yol hansıdır?",
+        "a": "Email və ya LinkedIn vasitəsilə — adətən bir gün ərzində cavab verirəm. Freelance təkliflər üçün email ən etibarlı üsuldur."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "07 — Əlaqə",
+    "title": "Əlaqə saxlayaq",
+    "intro": "Freelance işlərə, remote vəzifələrə və frontend əməkdaşlığa açığam. Əgər maraqlı bir ideyanız və ya həllini gözləyən probleminiz varsa, danışaq.",
+    "location": "Bakı, Azərbaycan",
+    "email": "mouradfatalieff@gmail.com",
+    "getInTouch": "Əlaqə saxla",
+    "github": "GitHub",
+    "form": {
+      "title": "Mesaj göndər",
+      "name": "Ad",
+      "email": "Email",
+      "message": "Mesaj",
+      "submit": "Göndər",
+      "sending": "Göndərilir…",
+      "success": "Mesajınız göndərildi! Tezliklə cavab verəcəyəm.",
+      "error": "Göndərilmədi. Yenidən cəhd edin və ya birbaşa email yazın.",
+      "invalidEmail": "Düzgün email daxil edin."
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Frontend, AI və Next.js haqqında qeydlərim.",
+    "readMore": "Oxu",
+    "backToPosts": "Bütün yazılar"
+  }
+}

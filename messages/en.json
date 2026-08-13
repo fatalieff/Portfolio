@@ -1,0 +1,234 @@
+{
+  "metadata": {
+    "title": "Murad Fataliyev · Frontend Developer",
+    "description": "Murad Fataliyev — frontend developer from Baku, building fast, clean, and visually polished web experiences with React and Next.js."
+  },
+  "nav": {
+    "about": "About",
+    "projects": "Projects",
+    "skills": "Skills",
+    "focus": "Focus",
+    "blog": "Blog",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Portfolio",
+    "name": "Murad Fataliyev",
+    "role": "Frontend Developer",
+    "divider": "·",
+    "focus": "React & Next.js"
+  },
+  "scroll": "Scroll",
+  "assistant": {
+    "placeholder": "Ask about my projects, stack, or how to get in touch…",
+    "suggestions": [
+      "Who is Murad Fataliyev?",
+      "Show my projects",
+      "What is his stack?",
+      "Contact details"
+    ],
+    "you": "You",
+    "replies": {
+      "who": "I'm Murad Fataliyev — a frontend developer from Baku, Azerbaijan. I build fast, clean, and visually polished web experiences with React and Next.js, focused on clarity, performance, and user flow. More about me is in the About section below.",
+      "projects": "My selected work includes an open-air cinema platform with Telegram-powered notifications, a home services platform with AI-assisted routing, and a modern food delivery landing page. Each project has a live demo link in the Projects section.",
+      "stack": "I work with HTML, CSS, JavaScript, React, Next.js, Tailwind CSS, Redux Toolkit, Vite, and Node.js — plus Supabase and Firebase on the backend side, and Figma for design. The full breakdown is in the Skills section.",
+      "contact": "The easiest way to reach me is through the Contact section at the bottom — my email and LinkedIn are there, and I usually reply within a day.",
+      "default": "Good question. Ask me about who I am, my projects, my stack, or how to get in touch — or scroll through the site to see the full picture."
+    }
+  },
+  "about": {
+    "eyebrow": "01 — About",
+    "title": "About me",
+    "body": "Frontend developer from Baku, passionate about building fast, clean, and visually polished web apps. I enjoy turning ideas into interfaces that feel modern, intuitive, and production-ready.\n\nI care about responsive frontend architecture, clarity, performance, and the small details that shape a good user flow. I work across the modern React ecosystem — from landing pages and dashboards to bots and real-time features."
+  },
+  "projects": {
+    "eyebrow": "02 — Projects",
+    "title": "Selected work",
+    "featuredBadge": "Featured",
+    "liveDemo": "Live demo",
+    "details": "View details",
+    "sourceCode": "Source code",
+    "roleLabel": "Role",
+    "yearLabel": "Year",
+    "stackLabel": "Tech stack",
+    "featuresTitle": "Key features",
+    "backToProjects": "All projects",
+    "featured": {
+      "title": "Gala Garden Cinema",
+      "slug": "gala-garden-cinema",
+      "year": "2024",
+      "role": "Frontend Developer",
+      "description": "Open-air cinema platform with a clean, responsive experience — movie exploration, food ordering, and real-time notifications powered by the Telegram Bot API.",
+      "longDescription": "A full platform built for an open-air cinema: visitors browse the movie catalog, pick a session, order snacks and drinks, and receive real-time updates about sessions and orders via the Telegram Bot API. The simple, clean interface turns the whole flow into a few effortless clicks.",
+      "tags": ["React", "Telegram Bot API", "Responsive UI", "Vercel"],
+      "stack": ["React", "JavaScript", "Tailwind CSS", "Telegram Bot API", "Vercel"],
+      "features": [
+        "Movie catalog and search",
+        "Food & drinks ordering flow",
+        "Real-time notifications via Telegram Bot API",
+        "Fully responsive design"
+      ],
+      "href": "https://galagardencinema.site/",
+      "github": "https://github.com/fatalieff/gala-garden-cinema"
+    },
+    "items": [
+      {
+        "title": "HəllVar",
+        "slug": "hell-var",
+        "year": "2024",
+        "role": "Frontend Developer",
+        "description": "Online platform digitalizing the home services sector in Azerbaijan — customers describe their problem, an AI-assisted system routes it to the right category, they book verified technicians, chat in realtime, and leave reviews. Fully supported in 4 languages.",
+        "longDescription": "A platform digitalizing the home services market: customers describe their problem, an AI-assisted system routes it to the right category, customers compare verified technicians and book them, follow progress in a realtime chat, and leave reviews when the job is done. The platform is fully supported in 4 languages.",
+        "tags": ["Next.js", "Supabase", "AI-assisted routing", "Realtime chat"],
+        "stack": ["Next.js", "React", "Supabase", "Tailwind CSS", "AI routing", "Realtime chat"],
+        "features": [
+          "AI-assisted problem categorization",
+          "Technician selection and booking",
+          "Realtime chat",
+          "Full support in 4 languages"
+        ],
+        "href": "https://hell-var.vercel.app/",
+        "github": "https://github.com/fatalieff/HellVar"
+      },
+      {
+        "title": "Foodie",
+        "slug": "foodie",
+        "year": "2023",
+        "role": "Frontend Developer",
+        "description": "Modern food delivery landing page designed with a clear visual hierarchy, strong UI sections, and smooth frontend interactions.",
+        "longDescription": "A modern food delivery landing page built around a strong visual hierarchy, clear call-to-action blocks, and smooth micro-interactions. State management with Redux Toolkit keeps the interface dynamic and fast.",
+        "tags": ["React", "Tailwind CSS", "Redux Toolkit"],
+        "stack": ["React", "JavaScript", "Tailwind CSS", "Redux Toolkit"],
+        "features": [
+          "Modern hero and section layouts",
+          "State management with Redux Toolkit",
+          "Smooth hover and scroll interactions",
+          "Fast, responsive rendering"
+        ],
+        "href": "https://foodie-react-one.vercel.app/",
+        "github": "https://github.com/fatalieff/foodie-react"
+      }
+    ]
+  },
+  "github": {
+    "eyebrow": "03 — GitHub",
+    "title": "Live GitHub",
+    "subtitle": "The repo data below is fetched live from the GitHub API — stars, language, and last update.",
+    "stars": "stars",
+    "forks": "forks",
+    "updated": "Updated",
+    "viewRepo": "Open repo"
+  },
+  "skills": {
+    "eyebrow": "04 — Skills",
+    "title": "Stack & tools",
+    "levelsTitle": "Levels",
+    "levelLabels": {
+      "1": "Beginner",
+      "2": "Intermediate",
+      "3": "Good",
+      "4": "Advanced",
+      "5": "Expert"
+    },
+    "groups": [
+      {
+        "label": "Frontend engineering",
+        "rows": [
+          { "label": "Languages", "value": "HTML5 · CSS3 · JavaScript (ES6+)" },
+          { "label": "UI stack", "value": "React · Next.js · Tailwind CSS" },
+          { "label": "State & build", "value": "Redux Toolkit · Vite · npm" },
+          { "label": "Libraries", "value": "Ant Design · Axios · Recharts" },
+          { "label": "Design", "value": "Figma · Responsive UI · Clean layouts" }
+        ],
+        "levels": [
+          { "name": "HTML & CSS", "level": 5 },
+          { "name": "JavaScript", "level": 4 },
+          { "name": "React", "level": 4 },
+          { "name": "Next.js", "level": 4 },
+          { "name": "Tailwind CSS", "level": 5 }
+        ]
+      },
+      {
+        "label": "Integration & delivery",
+        "rows": [
+          { "label": "Backend basics", "value": "Node.js · Supabase · Firebase" },
+          { "label": "Real-time & bots", "value": "Telegram Bot API" },
+          { "label": "Deployment", "value": "Vercel" },
+          { "label": "Focus", "value": "Performance · User flow · Product thinking" }
+        ],
+        "levels": [
+          { "name": "Node.js", "level": 3 },
+          { "name": "Supabase", "level": 3 },
+          { "name": "Firebase", "level": 3 },
+          { "name": "Telegram Bot API", "level": 4 },
+          { "name": "Redux Toolkit", "level": 4 }
+        ]
+      }
+    ]
+  },
+  "focus": {
+    "eyebrow": "05 — Focus",
+    "title": "Current focus",
+    "pitch": "I'm building toward a simple goal: frontend experiences that are fast, clean, and feel premium — interfaces people actually enjoy using.",
+    "quote": "Turning clean ideas into premium frontend experiences.",
+    "workTitle": "What I'm working on",
+    "items": [
+      "Sharper UI quality",
+      "Stronger product thinking",
+      "Better frontend scalability",
+      "Learning new technologies"
+    ],
+    "openForLabel": "Open for",
+    "openFor": ["Freelance work", "Remote roles", "Frontend collaboration"],
+    "backToChat": "Back to chat at the top"
+  },
+  "faq": {
+    "eyebrow": "06 — FAQ",
+    "title": "Frequently asked questions",
+    "items": [
+      {
+        "q": "What technologies do you work with?",
+        "a": "React, Next.js, Tailwind CSS, and Redux Toolkit — with Supabase and Firebase on the backend side and the Telegram Bot API for bots. The full breakdown is in the Skills section."
+      },
+      {
+        "q": "What kind of projects do you take on?",
+        "a": "Landing pages, web applications, dashboards, and products with real-time features. I take on everything from small improvements to full products."
+      },
+      {
+        "q": "How long does a project take?",
+        "a": "It depends on the size: a landing page takes 1–2 weeks, a full web app 2–8 weeks. The exact timeline is agreed after the first call."
+      },
+      {
+        "q": "What's the best way to reach you?",
+        "a": "Via email or LinkedIn — I usually reply within a day. For freelance proposals, email is the most reliable option."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "07 — Contact",
+    "title": "Let's connect",
+    "intro": "I'm open to freelance work, remote roles, and frontend collaboration. If you have an idea or a problem worth solving, let's talk.",
+    "location": "Baku, Azerbaijan",
+    "email": "mouradfatalieff@gmail.com",
+    "getInTouch": "Get in touch",
+    "github": "GitHub",
+    "form": {
+      "title": "Send a message",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send",
+      "sending": "Sending…",
+      "success": "Your message has been sent! I'll get back to you soon.",
+      "error": "Something went wrong. Please try again or email me directly.",
+      "invalidEmail": "Please enter a valid email address."
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Notes on frontend, AI, and Next.js.",
+    "readMore": "Read",
+    "backToPosts": "All posts"
+  }
+}
