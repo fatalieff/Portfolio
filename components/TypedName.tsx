@@ -44,7 +44,7 @@ export default function TypedName({
   }, [typed, phase, text]);
 
   return (
-    <span className="whitespace-pre">
+    <span className="whitespace-pre-wrap">
       {typed}
       {typed.length === text.length && <span className="text-accent">{suffix}</span>}
       <span className="caret-blink text-accent">|</span>

@@ -83,7 +83,7 @@ export default async function ProjectPage({ params }: Props) {
 
             <Reveal className="mt-12" delay={100}>
               <div className="rounded-3xl border border-black/[0.06] bg-white/70 p-7 shadow-[0_8px_30px_rgb(15,23,42,0.04)] sm:p-10">
-                <p className="text-[15px] leading-[1.8] text-foreground/85 md:text-[17px]">
+                <p className="text-[15px] leading-[1.8] text-foreground/85 md:text-[17px] [overflow-wrap:anywhere]">
                   {project.longDescription}
                 </p>
 
@@ -105,7 +105,7 @@ export default async function ProjectPage({ params }: Props) {
                   {project.features.map((feature) => (
                     <li
                       key={feature}
-                      className="flex gap-3 text-[14px] leading-relaxed text-foreground/75"
+                      className="flex min-w-0 gap-3 text-[14px] leading-relaxed text-foreground/75 [overflow-wrap:anywhere]"
                     >
                       <Check className="mt-0.5 size-4 shrink-0 text-accent" />
                       {feature}

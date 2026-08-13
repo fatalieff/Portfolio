@@ -125,7 +125,7 @@ export default function Assistant() {
       >
         {messages.map((m, i) =>
           m.role === "user" ? (
-            <p key={i} className="mt-8 text-[13px] font-medium text-foreground/90">
+            <p key={i} className="mt-8 text-[13px] font-medium text-foreground/90 [overflow-wrap:anywhere]">
               <span className="mr-2 rounded-full bg-accent/10 px-2 py-0.5 font-mono text-[10px] uppercase tracking-wider text-accent">
                 {dict.assistant.you}
               </span>
@@ -136,7 +136,7 @@ export default function Assistant() {
               key={i}
               className="mt-4 rounded-2xl border border-black/[0.05] bg-white/70 p-5 backdrop-blur"
             >
-              <p className="text-[14px] leading-relaxed text-foreground/80">
+              <p className="text-[14px] leading-relaxed text-foreground/80 [overflow-wrap:anywhere]">
                 {m.content}
               </p>
             </div>

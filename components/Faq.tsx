@@ -23,7 +23,7 @@ export default function Faq() {
               onClick={() => setOpen(isOpen ? null : index)}
               className="flex w-full items-center justify-between gap-4 px-6 py-5 text-left"
             >
-              <span className="text-[15px] font-semibold text-foreground">
+              <span className="min-w-0 text-[15px] font-semibold text-foreground [overflow-wrap:anywhere]">
                 {item.q}
               </span>
               <ChevronDown
@@ -33,7 +33,7 @@ export default function Faq() {
               />
             </button>
             <div className={isOpen ? "block" : "hidden"}>
-              <p className="px-6 pb-6 text-[14px] leading-[1.8] text-foreground/70">
+              <p className="px-6 pb-6 text-[14px] leading-[1.8] text-foreground/70 [overflow-wrap:anywhere]">
                 {item.a}
               </p>
             </div>

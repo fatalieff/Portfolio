@@ -417,7 +417,7 @@ export default async function Home({ params }: Props) {
                 {dict.focus.items.map((item) => (
                   <li
                     key={item}
-                    className="flex gap-3 text-[14px] leading-relaxed text-foreground/75"
+                    className="flex min-w-0 gap-3 text-[14px] leading-relaxed text-foreground/75 [overflow-wrap:anywhere]"
                   >
                     <span className="mt-1.5 size-1.5 shrink-0 rounded-full bg-accent/60" />
                     {item}
@@ -480,7 +480,7 @@ export default async function Home({ params }: Props) {
               <span aria-hidden="true">·</span>
               <a
                 href={`mailto:${dict.contact.email}`}
-                className="text-foreground/75 underline-offset-2 transition-colors hover:text-accent hover:underline"
+                className="break-all text-foreground/75 underline-offset-2 transition-colors hover:text-accent hover:underline"
               >
                 {dict.contact.email}
               </a>
