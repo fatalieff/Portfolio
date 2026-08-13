@@ -5,6 +5,7 @@ import { useLocale } from "@/components/LocaleProvider";
 import { usePathname, useRouter } from "next/navigation";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import ThemeToggle from "@/components/ThemeToggle";
+import MobileMenu from "@/components/MobileMenu";
 
 export default function TopNav() {
   const { dict, locale } = useLocale();
@@ -74,7 +75,7 @@ export default function TopNav() {
         <div className="flex items-center gap-3">
           <nav
             aria-label="Primary navigation"
-            className="flex items-center gap-1 overflow-x-auto py-0.5 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+            className="hidden items-center gap-1 overflow-x-auto py-0.5 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden md:flex"
           >
             {links.map((link) => (
               <button
@@ -110,8 +111,11 @@ export default function TopNav() {
               {dict.nav.blog}
             </button>
           </nav>
-          <LanguageSwitcher />
-          <ThemeToggle />
+          <div className="hidden items-center gap-3 md:flex">
+            <LanguageSwitcher />
+            <ThemeToggle />
+          </div>
+          <MobileMenu links={links} />
         </div>
       </div>
     </header>

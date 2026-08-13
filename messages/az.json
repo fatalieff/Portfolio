@@ -10,7 +10,9 @@
     "focus": "Diqqət",
     "blog": "Blog",
     "faq": "FAQ",
-    "contact": "Əlaqə"
+    "contact": "Əlaqə",
+    "menuOpen": "Menyunu aç",
+    "menuClose": "Menyunu bağla"
   },
   "hero": {
     "badge": "Portfolio",

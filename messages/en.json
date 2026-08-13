@@ -10,7 +10,9 @@
     "focus": "Focus",
     "blog": "Blog",
     "faq": "FAQ",
-    "contact": "Contact"
+    "contact": "Contact",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu"
   },
   "hero": {
     "badge": "Portfolio",
