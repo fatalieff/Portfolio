@@ -1,7 +1,8 @@
 import { NextResponse } from "next/server";
 
 const RESEND_URL = "https://api.resend.com/emails";
-const TO_EMAIL = "mouradfatalieff@gmail.com";
+const TO_EMAIL = process.env.RESEND_TO_EMAIL || "mouradfatalieff@gmail.com";
+const FROM_EMAIL = process.env.RESEND_FROM || "Portfolio <onboarding@resend.dev>";
 
 type ContactBody = {
   name?: string;
@@ -42,7 +43,7 @@ export async function POST(request: Request) {
         Authorization: `Bearer ${apiKey}`,
       },
       body: JSON.stringify({
-        from: "Portfolio <onboarding@resend.dev>",
+        from: FROM_EMAIL,
         to: [TO_EMAIL],
         reply_to: [email],
         subject: `[Portfolio] ${name} — portfolio contact form`,
